@@ -1,0 +1,330 @@
+
+
+@import url('bootstrap.css');
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  color: white;
+  background-color: #772ce8;
+  z-index: 2;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+.headline {
+  font-size: 30px;
+}
+.time-left {
+  font-size: 15px;
+}
+.in-front {
+  z-index: 10;
+}
+.link-white {
+	text-decoration: none;  
+	color: white;
+}
+.profile-image-menu {
+  border-radius: 100px;
+  height: 45px;
+  width: auto;
+  position: relative;
+  bottom: 15px;
+  right: 10px;
+  float: right;
+  z-index: 10;
+}
+.strong {
+
+  font-weight: bold;
+}
+.headline-casual-menu {
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.queue-menu {
+  position: relative;
+  bottom: 5px;
+  left: 25px;
+}
+.people-navbar-newest-oldest {
+font-size: 25px;
+}
+.menu-navbar {
+  font-size: 25px;
+  position: relative;
+  bottom: 5px;
+}
+.menu-navbar-link {
+  text-decoration: none;
+  color: white;
+}
+.settings-image {
+  height: 40px;
+  width: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.settings-link {
+  float: right;
+  position: relative;
+  bottom: 0px;
+  right: 20px;
+  color: white;
+  z-index: 10;
+}
+.menu {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.headline-new-profile {
+  position: relative;
+  top: 25px;
+}
+.people-menu {
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+.people-menu-session {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.song-name {
+  float: left;
+  position: relative;
+  left: 15px;
+  font-size: 40px;
+}
+.first-button {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-color: black;
+  background-color: #772ce8;
+  color: white;
+}
+.second-button {
+  border-color: black;
+  background-color: #772ce8;
+  color: white;
+}
+.third-button {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-color: black;
+  background-color: #772ce8;
+  color: white;
+}
+.headline-your-profile {
+  position: relative;
+  left: 15px;
+  top: 3px;
+
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.settings-menu {
+  margin-top: 110px;
+  margin-bottom: 150px;
+}
+.right {
+  float: right;
+  position: relative;
+  right: 10px;
+  bottom: 5px;
+}
+.button {
+  border-radius: 100px;
+}
+.upvote-button {
+  height: 50px;
+  width: auto;
+}
+.voting-counter {
+  position: relative;
+  bottom: 13px;
+}
+
+.info {
+  float: left;
+  border-radius: 100px;
+  position: fixed;
+  bottom: 85px;
+  left: 3px;
+}
+.info-img {
+  height: 30px;
+  width: auto;
+}
+.under-navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  background-color: #772ce8;
+  display: flex;
+  overflow-x: auto;
+  z-index: 1;
+}
+.navitem-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  min-width: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: white;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.1s ease-in-out;
+}
+.search-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #772ce8;
+  color: white;
+  z-index: 2;
+}
+.song {
+height: 130px;
+
+
+
+}
+.add-a-song {
+  position: relative;
+  bottom: 5px;
+}
+::placeholder {
+  color: white;
+}
+.search {
+  border-radius: 50px;
+  background-color: white;
+  color: white;
+  border-color: white;
+  background: url('../img/search.svg') no-repeat scroll 7px 7px; 
+  padding-left: 30px;
+  width: 90%;
+  border-width: 2px;
+}
+.hidden {
+  visibility: hidden;
+}
+.list-profile-picture {
+  border-radius: 100px;
+  height: 65px;
+  width: auto;
+  position: relative;
+  bottom: 5px;
+}
+.people-navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #772ce8;
+  color: white;
+  z-index: 2;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+
+}
+.people-profile-img {
+  border-radius: 100px;
+  height: 45px;
+  width: auto;
+  position: relative;
+  bottom: 40px;
+  right: 10px;
+  float: right;
+  z-index: 10;
+}
+.people-session-profile-img {
+  border-radius: 100px;
+  height: 45px;
+  width: auto;
+  position: relative;
+  bottom: 20px;
+  right: 10px;
+  float: right;
+  z-index: 10;
+}
+.people-amount {
+  position: relative;
+  bottom: 5px;
+  left: 20px;
+}
+.people-upvotes {
+  font-size: 15px;
+}
+.profile-menu {
+  margin-top: 130px;
+}
+@media (max-width: 349px) {
+  .suggested-by {
+    font-size: 10px;
+  }
+  .profile-picture-fullscreen {
+    width: 60%;
+    border-radius: 100px;
+  }
+}
+@media (min-width: 350px) {
+  .suggested-by {
+    font-size: 15px;
+  }
+  .profile-picture-fullscreen {
+    width: 50%;
+    border-radius: 1000px;
+  }
+}
+
+@media (min-width: 900px) {
+  .suggested-by {
+    font-size: 20px;
+  }
+  .menu,
+  .under-navbar,
+  .search-div, .header, .people-navbar, .header {
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+
+  .profile-picture-fullscreen {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .menu,
+  .under-navbar,
+  .search-div, .header, .people-navba, .header {
+    padding-left: 400px;
+    padding-right: 400px;
+  }
+  .profile-picture-fullscreen {
+    width: 20%;
+  }
+}
+
+@media (min-width: 1800px) {
+  .menu,
+  .under-navbar,
+  .search-div, .header, .people-navbar, .header {
+    padding-left: 450px;
+    padding-right: 450px;
+  }
+  .profile-picture-fullscreen {
+    width: 20%;
+  }
+}
